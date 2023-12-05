@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Do bicho</title>
+</head>
+
+<body>
+    <header>Jogo do Bicho</header>
+
+    <main>
+        <section id="area_cartelas">
+            <div id="cartelas">
+                <h3>Cartelas</h3>
+                <button onclick="inscreverJogador()">Gerar Cartela Animal</button>
+                <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+            </div>
+
+            <div id="corpoCartelas">
+            </div>
+        </section>
+        <section id="area_numeros">
+            <div id="numeros">
+                <button onclick="jogar()">Apostar tudo</button>
+            </div>
+            <div id="corpoNumeros">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>@GustavoTrevezani<footer>
+
+            <script src="script.js"></script>
+</body>
+
+</html>

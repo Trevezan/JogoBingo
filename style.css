@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(121, 166, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#area_cartelas {
+  width: 70%;
+  height: 75vh;
+  background-color: rgb(216, 218, 213);
+}
+
+#cartelas,
+#numeros {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(121, 166, 248);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px;
+  border-color: black;
+  border-style: ridge;
+  font-size: 30px;
+}
+
+#corpoCartelas {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#corpoNumeros {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#corpoNumeros span {
+  background-color: lightgray;
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.cartela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.cartela h4 {
+  margin-bottom: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+#area_numeros {
+  width: 30%;
+  height: 75vh;
+  background-color: rgba(2, 2, 131, 0.753);
+}
+
+footer {
+  text-align: center;
+  bottom: 0px;
+  height: 18px;
+  width: 100%;
+  background-color: greenyellow;
+  align-items: center;
+  font-style: italic;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
